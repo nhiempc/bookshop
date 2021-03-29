@@ -1,0 +1,36 @@
+.section-vn-book{
+    .section-vn-book-title{
+        border-bottom: 2px solid #c96b00;
+        overflow: hidden;
+        position: relative;
+        display: block;
+        h3{
+            text-transform: uppercase;
+            position: relative;
+            color:white;
+            background-color: #c96b00;
+            font-size: 16px;
+            padding: 0 10px;
+            float: left;
+            display: block;
+            line-height: 30px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            &:after{
+                position: absolute;
+                height: 0;
+                width: 0;
+                border-bottom: 0;
+                border-right: 0;
+                content: "";
+                top: 0;
+                right: -30px;
+                border-left: 30px solid #c96b00;
+                border-top: 30px solid transparent;
+            }
+        }
+    }
+    .section-vn-book-content{
+        margin-top: 10px;
+    }
+}

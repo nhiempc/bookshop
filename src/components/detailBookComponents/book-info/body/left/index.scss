@@ -1,0 +1,142 @@
+.left{
+    border-right: 1px solid #e6e6e6;
+    padding: 0px 0px;
+    .price-and-icon{
+        border-bottom: 1px solid #e6e6e6;
+        display: flex;
+        flex-direction: column;
+        border-radius: 4px;
+        background-color: rgb(250, 250, 250);
+        padding: 12px 16px;
+        .product-price{
+            display: flex;
+            align-items: center;
+            .current-price{
+                font-size: 32px;
+                line-height: 40px;
+                margin-right: 8px;
+                font-weight: bolder;
+            }
+            .origin-price{
+                margin-right: 10px;
+                text-decoration: line-through;
+                font-size: 13px;
+                line-height: 20px;
+            }
+            .discount-rate{
+                font-size: 13px;
+                line-height: 20px;
+            }
+        }
+    }
+    .delivery-zone{
+        padding: 16px 0px;
+        border-bottom: 1px solid #e6e6e6;
+        .inner{
+            position: relative;
+            color: rgb(36, 36, 36);
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+            span{
+                color: rgb(13, 92, 182);
+                font-weight: bolder;
+                cursor: pointer;
+            }
+        }
+    }
+    .purchase{
+        display: flex;
+        flex-direction: column;
+        padding: 16px 0px;
+        border-bottom: 1px solid #e6e6e6;
+        .quantity-and-message{
+            display: flex;
+            align-items: flex-end;
+            .quantity-input-wrapper{
+                .label{
+                    margin: 0px 0px 10px;
+                    font-size: 15px;
+                    line-height: 1.6;
+                }
+                .group-input{
+                    display: flex;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    margin-top: 8px;
+                    .input{
+                        width: 40px;
+                        border: 1px solid rgb(236, 236, 236);
+                        height: 30px;
+                        color: rgb(36, 36, 36);
+                        font-size: 14px;
+                        text-align: center;
+                        outline: none;
+                        transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+                    }
+                    button:first-child{
+                        display: flex;
+                        -webkit-box-align: center;
+                        align-items: center;
+                        border-right: none;
+                        border-radius: 4px 0px 0px 4px;
+                        padding: 4px;
+                        border-top: 1px solid rgb(236, 236, 236);
+                        border-left: 1px solid rgb(236, 236, 236);
+                        border-bottom: 1px solid rgb(236, 236, 236);
+                    }
+                    button:last-child{
+                        display: flex;
+                        -webkit-box-align: center;
+                        align-items: center;
+                        border-left: none;
+                        border-radius: 0px 4px 4px 0px;
+                        padding: 4px;
+                        border-top: 1px solid rgb(236, 236, 236);
+                        border-right: 1px solid rgb(236, 236, 236);
+                        border-bottom: 1px solid rgb(236, 236, 236);
+                    }
+                    .disable{
+                        border-right: none;
+                        border-radius: 4px 0px 0px 4px;
+                        padding: 4px;
+                    }
+                }
+            }
+            .product-left{
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 1.54;
+                margin-left: 12px;
+                text-transform: uppercase;
+                color: rgb(253, 130, 10);
+            }
+        }
+        .group-button{
+            padding-top: 16px;
+            flex: 1 1 0%;
+            display: flex;
+            .btn-add-to-cart{
+                color: rgb(255, 255, 255);
+                background-color: rgb(255, 57, 69);
+                cursor: pointer;
+                display: flex;
+                -webkit-box-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                justify-content: center;
+                min-width: 190px;
+                width: 100%;
+                max-width: 300px;
+                height: 48px;
+                font-size: 15px;
+                line-height: 24px;
+                font-weight: 500;
+                text-transform: capitalize;
+                border: none;
+                border-radius: 4px;
+                outline: none;
+            }
+        }
+    }
+}

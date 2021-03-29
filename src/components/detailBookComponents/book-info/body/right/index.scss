@@ -1,0 +1,228 @@
+.right{
+    padding: 0px 0px;
+    .seller-widget{
+        .seller-info{
+            display: flex;
+            flex-direction: column;
+            padding: 8px 12px;
+            min-height: 60px;
+            .overview{
+                display: flex;
+                align-items: flex-start;
+                text-decoration: none;
+                .logo{
+                    width: 44px;
+                    height: 44px;
+                    position: relative;
+                    background-color: rgb(255, 255, 255);
+                    .logo-shop{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top: 0px;
+                        left: 0px;
+                        z-index: 2;
+                        object-fit: contain;
+                    }
+                }
+                .seller-name{
+                    margin-left: 12px;
+                    align-self: center;
+                    margin-bottom: 2px;
+                    font-size: 15px;
+                    font-weight: bolder;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.6;
+                    letter-spacing: normal;
+                    color: rgb(36, 36, 36);
+                    span{
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 1;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+        .seller-detail{
+            display: flex;
+            min-height: 39px;
+            .seller-rating{
+                display: flex;
+                flex-direction: column;
+                flex: 1 1 0%;
+                -webkit-box-align: center;
+                align-items: center;
+                .title{
+                    font-weight: bolder;
+                    display: flex;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    text-align: center;
+                }
+                .sub-title{
+                    font-size: 11px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.45;
+                    letter-spacing: normal;
+                    color: rgb(120, 120, 120);
+                    text-align: center;
+                }
+            }
+            .seller-subcriber{
+                display: flex;
+                flex-direction: column;
+                flex: 1 1 0%;
+                -webkit-box-align: center;
+                align-items: center;
+                .title{
+                    font-weight: bolder;
+                    display: flex;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    text-align: center;
+                }
+                .sub-title{
+                    font-size: 11px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.45;
+                    letter-spacing: normal;
+                    color: rgb(120, 120, 120);
+                    text-align: center;
+                }
+            }
+        }
+        .seller-action{
+            display: flex;
+            padding: 12px 5px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            .view-shop{
+                display: flex;
+                padding: 6px 9px;
+                -webkit-box-align: center;
+                align-items: center;
+                border-radius: 4px;
+                border: 1px solid rgb(13, 92, 182);
+                cursor: pointer;
+                background-color: transparent;
+                text-decoration: none;
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+                span{
+                    font-size: 13px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.54;
+                    letter-spacing: normal;
+                    color: rgb(13, 92, 182);
+                    margin-left: 4px;
+                }
+            }
+            .follow-shop{
+                display: flex;
+                padding: 6px 9px;
+                -webkit-box-align: center;
+                align-items: center;
+                border-radius: 4px;
+                border: 1px solid rgb(13, 92, 182);
+                cursor: pointer;
+                background-color: transparent;
+                text-decoration: none;
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+                span{
+                    font-size: 13px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.54;
+                    letter-spacing: normal;
+                    color: rgb(13, 92, 182);
+                    margin-left: 4px;
+                }
+            }
+        }
+        .customer-benefits{
+            display: flex;
+            padding: 8px;
+            border-top: 1px solid #e6e6e6;
+            border-bottom: 1px solid #e6e6e6;
+            .benefit-item{
+                background: white;
+                display: flex;
+                flex-direction: column;
+                flex: 1 0 30%;
+                -webkit-box-flex: 1;
+                img{
+                    height: 20px;
+                }
+                span{
+                    text-align: center;
+                    font-size: 13px;
+                    line-height: 20px;
+                    margin-top: 8px;
+                }
+            }
+        }
+        .other-seller{
+            margin: 24px 0px 0px;
+            opacity: 1;
+            .title{
+                padding: 8px 16px;
+                font-size: 15px;
+                line-height: 24px;
+            }
+            .seller{
+                border: 1px solid rgb(242, 242, 242);
+                padding: 8px 16px;
+                font-size: 15px;
+                line-height: 24px;
+                font-weight: 500;
+                position: relative;
+                margin: 0px 0px 8px;
+                border-radius: 4px;
+                .seller-name{
+                    display: block;
+                    color: rgb(51, 51, 51);
+                    padding-right: 70px;
+                    text-decoration: none;
+                    word-break: break-word;
+                    cursor: pointer;
+                }
+                .seller-price{
+                    display: block;
+                    color: rgb(51, 51, 51);
+                    padding-right: 70px;
+                    text-decoration: none;
+                    word-break: break-word;                    
+                }
+                .seller-view{
+                    font-size: 13px;
+                    width: 64px;
+                    height: 32px;
+                    line-height: 32px;
+                    border: 1px solid rgb(199, 199, 199);
+                    position: absolute;
+                    top: 16px;
+                    right: 16px;
+                    padding: 0px;
+                    border-radius: 4px;
+                    background: 0px center;
+                    cursor: pointer;
+                    outline: 0px;                    
+                }
+            }
+        }
+    }
+}
